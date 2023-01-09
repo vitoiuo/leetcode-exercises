@@ -1,1 +1,1 @@
-# leetcode-exercises
+Play the man, not the odds
