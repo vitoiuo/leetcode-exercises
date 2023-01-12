@@ -1,9 +1,4 @@
-# def isValid(s):
-#     valid = []
-#     end_tags_map = {'[':']','{':'}','(':')'}
-#     for index,char in enumerate(s):
-#         if(char in end_tags_map.keys()):
-#             valid = end_tags_map[char] in s[index+1:-1] and s.index(end_tags_map[char])
+# Problem: https://leetcode.com/problems/valid-parentheses/
 
 def isValid(s):
     stock = []
@@ -21,8 +16,3 @@ def isValid(s):
             valid=False
             return valid
     return stock == [] and valid
-
-print(isValid(")(){}"))
-
-
-#a partir do bracket, precisa ter algo que o feche, porém, não pode haver nenhuma outro tipo de bracket de fechamento no caminho 

@@ -6,4 +6,3 @@ var hammingWeight = function(n) {
     return numberOfOneBit
 };
 
-hammingWeight(00000000000000000000000000001011)
