@@ -1,4 +1,4 @@
-//Problem: https://leetcode.com/problems/reverse-integer/
+//Problem: https://leetcode.com/problems/reverse-integer/submissions/877514980/
 
 const reverse = function(x) {
     const regex = /^[-](\d+)/g

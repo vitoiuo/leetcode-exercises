@@ -1,3 +1,5 @@
+# Problem: https://leetcode.com/problems/maximum-score-words-formed-by-letters/submissions/876874922/
+
 import string
 from collections import Counter
 from itertools import chain, combinations

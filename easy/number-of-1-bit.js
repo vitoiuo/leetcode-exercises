@@ -1,4 +1,4 @@
-// Problem: https://leetcode.com/problems/number-of-1-bits/description/
+// Problem: https://leetcode.com/problems/number-of-1-bits/submissions/875141636/
 
 var hammingWeight = function(n) {
     const binaryArray = n.toString().split('')

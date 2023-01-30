@@ -1,5 +1,4 @@
-# Problem: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
-
+# Problem: https://leetcode.com/problems/count-the-digits-that-divide-a-number/submissions/875848854/
 class Solution(object):
     def countDigits(self, num):
         division_count=0
