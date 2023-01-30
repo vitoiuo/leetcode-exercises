@@ -1,5 +1,7 @@
-def firstMissingPositive(nums):
-    missing_int = set(range(1,len(nums)+1)) - set(nums)
-    if bool(missing_int):
-        return min(missing_int)
-    return max(nums) + 1
+class Solution(object):
+    def firstMissingPositive(self, nums):
+        missing_int = set(range(1,len(nums)+1)) - set(nums)
+        if missing_int:
+            return min(missing_int)
+
+        return max(nums) + 1
